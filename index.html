@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDCC 股東e票通</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="src/assets/css/main.css" />
+</head>
+
+<body>
+  <header class="header-container">
+    <div class="header-logo">
+      <a><img src="./src/assets/img/tdcc-logo.png"></a>
+    </div>
+    <ul id="menu" class="header-list">
+      <li class="header-item"><a href="#">首頁</a></li>
+      <li class="header-item"><a href="#">關於我們</a></li>
+      <li class="header-item"><a href="#">活動消息</a></li>
+      <li class="header-item"><a href="#">統計專區</a></li>
+      <li class="header-item"><a href="#">Ｑ＆Ａ</a></li>
+      <li class="header-item"><a href="#">聯絡我們</a></li>
+      <li class="header-item"><a href="#">登入</a></li>
+    </ul>
+    <button class="btn-menu" onclick="clickMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </button>
+  </header>
+  <article class="index-container">
+    <section class="index-feature">
+      <div class="index-news">
+        <div class="index-news-title">活動消息</div>
+        <div class="index-news-content">消息內容</div>
+      </div>
+      <div class="index-investor-list">
+        <div class="index-investor-item">
+          <a><img src="src/assets/img/investor-1.png"></a>
+        </div>
+        <div class="index-investor-item">
+          <a><img src="src/assets/img/investor-2.png"></a>
+        </div>
+        <div class="index-investor-item">
+          <a><img src="src/assets/img/investor-3.png"></a>
+        </div>
+      </div>
+      <div class="index-learn-list">
+        <div class="index-learn-item"><a href="#">新手上路</a></div>
+        <div class="index-learn-item"><a href="#">首次使用設定</a></div>
+      </div>
+    </section>
+    <section class="index-query-container">
+      <div class="index-query-title">
+        股東會資訊
+      </div>
+      <div class="index-query-list">
+        <div class="index-query-item">
+          <p>資料排序⽅式：</p>
+          <div>
+            <select>
+              <option selected>請選擇</option>
+              <option>方式一</option>
+              <option>方式二</option>
+            </select>
+            <button class="btn-gray">查詢</button>
+          </div>
+        </div>
+        <div class="index-query-item">
+          <p>搜尋股東會：</p>
+          <div>
+            <input type="text">
+            <button class="btn-gray">查詢</button>
+          </div>
+        </div>
+      </div>
+      <div class="table-container">
+        <ul class="table-head">
+          <li class="table-cell table-cell-1">證券代號/名稱</li>
+          <li class="table-cell table-cell-2">股東會日期</li>
+          <li class="table-cell table-cell-3">投票起訖日期</li>
+          <li class="table-cell table-cell-4">服務單位</li>
+          <li class="table-cell table-cell-5">聯絡電話</li>
+        </ul>
+        <ul class="table-row">
+          <li class="table-cell table-cell-1">6702 復興航空</li>
+          <li class="table-cell table-cell-2">106/01/11</li>
+          <li class="table-cell table-cell-3">105/12/27 ~ 106/01/08</li>
+          <li class="table-cell table-cell-4">群益⾦鼎證券</li>
+          <li class="table-cell table-cell-5">(02)2703-500</li>
+        </ul>
+        <ul class="table-row">
+          <li class="table-cell table-cell-1">6702 復興航空</li>
+          <li class="table-cell table-cell-2">106/01/11</li>
+          <li class="table-cell table-cell-3">105/12/27 ~ 106/01/08</li>
+          <li class="table-cell table-cell-4">群益⾦鼎證券</li>
+          <li class="table-cell table-cell-5">(02)2703-500</li>
+        </ul>
+        <ul class="table-row">
+          <li class="table-cell table-cell-1">6702 復興航空</li>
+          <li class="table-cell table-cell-2">106/01/11</li>
+          <li class="table-cell table-cell-3">105/12/27 ~ 106/01/08</li>
+          <li class="table-cell table-cell-4">群益⾦鼎證券</li>
+          <li class="table-cell table-cell-5">(02)2703-500</li>
+        </ul>
+        <ul class="table-row">
+          <li class="table-cell table-cell-1">6702 復興航空</li>
+          <li class="table-cell table-cell-2">106/01/11</li>
+          <li class="table-cell table-cell-3">105/12/27 ~ 106/01/08</li>
+          <li class="table-cell table-cell-4">群益⾦鼎證券</li>
+          <li class="table-cell table-cell-5">(02)2703-500</li>
+        </ul>
+        <ul class="table-row">
+          <li class="table-cell table-cell-1">6702 復興航空</li>
+          <li class="table-cell table-cell-2">106/01/11</li>
+          <li class="table-cell table-cell-3">105/12/27 ~ 106/01/08</li>
+          <li class="table-cell table-cell-4">群益⾦鼎證券</li>
+          <li class="table-cell table-cell-5">(02)2703-500</li>
+        </ul>
+        <ul class="table-row">
+          <li class="table-cell table-cell-1">6702 復興航空</li>
+          <li class="table-cell table-cell-2">106/01/11</li>
+          <li class="table-cell table-cell-3">105/12/27 ~ 106/01/08</li>
+          <li class="table-cell table-cell-4">群益⾦鼎證券</li>
+          <li class="table-cell table-cell-5">(02)2703-500</li>
+        </ul>
+        <ul class="table-row">
+          <li class="table-cell table-cell-1">6702 復興航空</li>
+          <li class="table-cell table-cell-2">106/01/11</li>
+          <li class="table-cell table-cell-3">105/12/27 ~ 106/01/08</li>
+          <li class="table-cell table-cell-4">群益⾦鼎證券</li>
+          <li class="table-cell table-cell-5">(02)2703-500</li>
+        </ul>
+        <ul class="table-row">
+          <li class="table-cell table-cell-1">6702 復興航空</li>
+          <li class="table-cell table-cell-2">106/01/11</li>
+          <li class="table-cell table-cell-3">105/12/27 ~ 106/01/08</li>
+          <li class="table-cell table-cell-4">群益⾦鼎證券</li>
+          <li class="table-cell table-cell-5">(02)2703-500</li>
+        </ul>
+        <ul class="table-row">
+          <li class="table-cell table-cell-1">6702 復興航空</li>
+          <li class="table-cell table-cell-2">106/01/11</li>
+          <li class="table-cell table-cell-3">105/12/27 ~ 106/01/08</li>
+          <li class="table-cell table-cell-4">群益⾦鼎證券</li>
+          <li class="table-cell table-cell-5">(02)2703-500</li>
+        </ul>
+        <ul class="table-row">
+          <li class="table-cell table-cell-1">6702 復興航空</li>
+          <li class="table-cell table-cell-2">106/01/11</li>
+          <li class="table-cell table-cell-3">105/12/27 ~ 106/01/08</li>
+          <li class="table-cell table-cell-4">群益⾦鼎證券</li>
+          <li class="table-cell table-cell-5">(02)2703-500</li>
+        </ul>
+      </div>
+      <div class="pagination">
+        <ul class="pagination-list">
+          <a href="#" class="pagination-item">
+            <li>&lt;</li>
+          </a>
+          <a href="#" class="pagination-item act">
+            <li>1</li>
+          </a>
+          <a href="#" class="pagination-item">
+            <li>2</li>
+          </a>
+          <a href="#" class="pagination-item">
+            <li>3</li>
+          </a>
+          <a href="#" class="pagination-item">
+            <li>4</li>
+          </a>
+          <a href="#" class="pagination-item">
+            <li>5</li>
+          </a>
+          <a href="#" class="pagination-item">
+            <li>6</li>
+          </a>
+          <a href="#" class="pagination-item">
+            <li>&gt;</li>
+          </a>
+        </ul>
+      </div>
+    </section>
+    <section class="index-link-container">
+      <div class="index-link-list">
+        <a><img src="src/assets/img/link-1.png"></a>
+        <a><img src="src/assets/img/link-2.png"></a>
+        <a><img src="src/assets/img/link-3.png"></a>
+        <a><img src="src/assets/img/link-4.png"></a>
+        <a><img src="src/assets/img/link-5.png"></a>
+        <a><img src="src/assets/img/link-6.png"></a>
+      </div>
+      <div class="index-link-menu">
+        <div class="index-link-title">
+          <span>相關網站</span>
+          <a>more</a>
+        </div>
+        <a>⾦融監督管理委員會</a>
+        <a>臺灣證券交易所</a>
+        <a>臺灣期貨交易所</a>
+        <a>證券櫃檯買賣中⼼</a>
+        <a>臺灣集保結算所</a>
+      </div>
+    </section>
+  </article>
+  <footer class="footer-container">
+    <div class="footer-item footer-item-info">
+      <div class="content-info">
+        <p>聯絡我們：</p>
+        <div class="content-info-list">
+          <div class="content-info-item">
+            <p>週⼀⾄週五</p>
+            <p>08:00〜20:00 電話：(02)3789-7555</p>
+            <p>08:30〜17:30 電話：(02)2514-1125、(02)2514-1242</p>
+          </div>
+          <div class="content-info-item">
+            <p>E-Mail：tdcc@tdcc.com.tw</p>
+            <p>台北市復興北路363號11樓</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-item footer-item-logo">
+      <div class="footer-logo">
+        <a><img src="./src/assets/img/anab-logo.jpg"></a>
+        <a><img src="./src/assets/img/dp-mark-logo.gif"></a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function clickMenu() {
+      var menu = document.getElementById('menu');
+      menu.classList.toggle('act');
+    }
+  </script>
+</body>
+
+</html>
